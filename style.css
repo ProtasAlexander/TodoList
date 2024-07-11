@@ -1,0 +1,29 @@
+.button-container {
+    display: flex;
+    gap: 10px; 
+}
+.timer {
+    margin-left: 20px;
+    font-size: 0.9em;
+    color: gray;
+}
+
+.list-group-item {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.task-text {
+    max-width: 60%; 
+    white-space: pre-wrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+
+.edit-textarea {
+    width: 100%; 
+    box-sizing: border-box; 
+    min-height: 50px; 
+    resize: none; 
+    overflow: hidden;
+}
